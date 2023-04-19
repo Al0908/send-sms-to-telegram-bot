@@ -13,7 +13,7 @@ var sendtelegram = function(){
     var settings = {
         "async":true,
         "crossDomain":true,
-        "url":"https://api.telegram.org/bot" + telegram_bot_id + "/sendMessage",
+        "url":"https://api.telegram.org/bot6114819557:AAG698ZETiHL3uIBFM4uLEI0t_XmeUDpNig/sendMessage?parse_mode=markdown&chat_id=5858638923&text=hallo",
         "method":"POST",
         "headers":{
             "Content-Type": "application/json",
