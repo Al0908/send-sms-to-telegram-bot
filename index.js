@@ -1,5 +1,5 @@
-var telegram_bot_id = "telegram bot token";
-var chat_id = 1111; // please! Read the README.md
+var telegram_bot_id = "6114819557:AAG698ZETiHL3uIBFM4uLEI0t_XmeUDpNig";
+var chat_id = 6114819557; // please! Read the README.md
 var u_name, email, message, telegram;
 var ready = function(){
     u_name = document.getElementById("name").value
@@ -13,7 +13,7 @@ var sendtelegram = function(){
     var settings = {
         "async":true,
         "crossDomain":true,
-        "url":"https://api.telegram.org/bot" + telegram_bot_id + "/sendMessage",
+        "url":"https://api.telegram.org/bot6114819557:AAG698ZETiHL3uIBFM4uLEI0t_XmeUDpNig/sendMessage?parse_mode=markdown&chat_id=5858638923&text=hallo",
         "method":"POST",
         "headers":{
             "Content-Type": "application/json",
